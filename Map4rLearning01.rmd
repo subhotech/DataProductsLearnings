@@ -1,3 +1,5 @@
+# My First Interactive Map using R Leaflet (for learning purpose)
+
 
 library(leaflet)
 
@@ -7,4 +9,5 @@ mymap = addTiles(mymap)
 leaflet() %>%  addProviderTiles(provider = "CartoDB.Positron")
 
 mymap = setView(mymap, lng = -73.9808,lat =40.7648 , zoom = 16)
+
 mymap
